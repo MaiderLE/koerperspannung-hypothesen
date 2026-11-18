@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="850" viewBox="0 0 1340 850" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="pfeil" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#A9A598"/>
+    </marker>
+    <style>
+      .box { fill: #FFFFFF; stroke: #C8C5BB; stroke-width: 2; }
+      .einfluss { fill: #FFFFFF; stroke: #E5A823; stroke-width: 2.5; }
+      .titel { font-size: 20px; font-weight: 600; fill: #1D1D1B; }
+      .text { font-size: 17px; fill: #1D1D1B; }
+      .status { font-size: 15px; fill: #77746B; }
+      .label { font-size: 15px; fill: #77746B; }
+      .linie { fill: none; stroke: #A9A598; stroke-width: 2; }
+      .vermutet { stroke-dasharray: 7 6; }
+    </style>
+  </defs>
+
+  <rect width="1340" height="850" fill="#FFFFFF"/>
+
+  <!-- Überschrift -->
+  <text x="44" y="58" font-size="27" font-weight="600" fill="#1D1D1B">Kernhypothese: Sinnesreize formen die Körperspannung</text>
+  <text x="44" y="94" font-size="18" fill="#6B6B6B">Vermutung; die einzelnen Zusammenhänge sind in H1 bis H16 eingeordnet</text>
+
+  <!-- Reihe 1: Einflüsse -->
+  <rect class="einfluss" x="44" y="130" width="385" height="150" rx="14"/>
+  <text class="titel" x="72" y="170">Lebensbedingungen</text>
+  <text class="text" x="72" y="200">Kleidung, Schuhe, Naharbeit der Augen,</text>
+  <text class="text" x="72" y="226">trockene Raumluft</text>
+  <text class="status" x="72" y="260">teilweise gestützt</text>
+
+  <rect class="einfluss" x="910" y="130" width="385" height="150" rx="14"/>
+  <text class="titel" x="938" y="170">Anlage</text>
+  <text class="text" x="938" y="200">nachgiebiges Bindegewebe</text>
+  <text class="text" x="938" y="226">(Überbeweglichkeit der Gelenke)</text>
+  <text class="status" x="938" y="260">offen</text>
+
+  <!-- Pfeile Reihe 1 nach Reihe 2 -->
+  <line class="linie" x1="236.5" y1="280" x2="236.5" y2="348" marker-end="url(#pfeil)"/>
+  <text class="label" x="254" y="320">machen Reize gleichförmiger</text>
+  <line class="linie vermutet" x1="1102.5" y1="280" x2="1102.5" y2="348" marker-end="url(#pfeil)"/>
+  <text class="label" x="1120" y="320">verstärkt die Folgen?</text>
+
+  <!-- Reihe 2: Regelkreis -->
+  <rect class="box" x="44" y="350" width="385" height="220" rx="14"/>
+  <text class="titel" x="72" y="390">Sensoren</text>
+  <text class="text" x="72" y="422">Haut: Dehnung, Berührung, Luft (H1)</text>
+  <text class="text" x="72" y="448">Fußsohlen (H3)</text>
+  <text class="text" x="72" y="474">Augen und Blickrichtung (H2)</text>
+  <text class="text" x="72" y="500">Atemwege: Nase und Mund (H5)</text>
+  <text class="status" x="72" y="548">teilweise gestützt</text>
+
+  <rect class="box" x="477" y="350" width="385" height="220" rx="14"/>
+  <text class="titel" x="505" y="390">Verarbeitung im Gehirn</text>
+  <text class="text" x="505" y="422">Hirnstamm, Hypothalamus, Insula</text>
+  <text class="text" x="505" y="448">Lagewahrnehmung,</text>
+  <text class="text" x="505" y="474">Körperwahrnehmung (Interozeption)</text>
+  <text class="status" x="505" y="548">bekannt</text>
+
+  <rect class="box" x="910" y="350" width="385" height="220" rx="14"/>
+  <text class="titel" x="938" y="390">Muskeln und Faszien</text>
+  <text class="text" x="938" y="422">Muskelspannung und Haltung</text>
+  <text class="text" x="938" y="448">langsame Faszienspannung (H8)</text>
+  <text class="text" x="938" y="474">Kraftübertragung über</text>
+  <text class="text" x="938" y="500">Faszienketten (H8)</text>
+  <text class="status" x="938" y="548">teilweise gestützt</text>
+
+  <line class="linie" x1="429" y1="460" x2="475" y2="460" marker-end="url(#pfeil)"/>
+  <line class="linie" x1="862" y1="460" x2="908" y2="460" marker-end="url(#pfeil)"/>
+
+  <!-- Reihe 3: Rückmeldung -->
+  <rect class="box" x="477" y="640" width="385" height="140" rx="14"/>
+  <text class="titel" x="505" y="680">Rückmeldesignale</text>
+  <text class="text" x="505" y="710">Zittern (H9)</text>
+  <text class="text" x="505" y="736">spontane Selbstberührung (H10)</text>
+  <text class="status" x="505" y="766">teilweise gestützt, Rolle offen</text>
+
+  <path class="linie vermutet" d="M1102.5,570 L1102.5,710 L864,710" marker-end="url(#pfeil)"/>
+  <path class="linie vermutet" d="M477,710 L236.5,710 L236.5,572" marker-end="url(#pfeil)"/>
+
+  <!-- Legende -->
+  <line class="linie" x1="44" y1="818" x2="94" y2="818"/>
+  <text class="label" x="106" y="823">Zusammenhang belegt oder teilweise gestützt</text>
+  <line class="linie vermutet" x1="520" y1="818" x2="570" y2="818"/>
+  <text class="label" x="582" y="823">vermutet, ungeprüft</text>
+</svg>
