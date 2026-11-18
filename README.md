@@ -20,7 +20,7 @@ This document collects observations and testable hypotheses on body tension and 
 
 **Core hypothesis:** Sensory input from the skin, the soles of the feet and the airways continuously shapes the tension of muscles and fascia. Modern living conditions such as near-constant clothing, shoes, near work and dry indoor air make this input more uniform. This may impair the regulation of body tension, especially in people with lax connective tissue (joint hypermobility), who may rely more on cutaneous and plantar signals for stability.
 
-The document is organised in three parts: hypotheses with partial support (Part A), single observations that need a blinded test (Part B), and ideas that were checked and discarded, with reasons (Part C). Each hypothesis (H1 to H16) includes a proposed test. Feedback, especially disagreement with sources, is very welcome.
+The document is organised in three parts: hypotheses with partial support (Part A), single observations that need a blinded test (Part B), and ideas that were checked and discarded, with reasons (Part C). Each hypothesis (H1 to H16) includes a proposed test. Feedback, especially disagreement with sources, is very welcome as a [GitHub issue](https://github.com/MaiderLE/koerperspannung-hypothesen/issues), ideally one issue per hypothesis.
 
 ## Zweck und Status dieses Dokuments
 
@@ -359,6 +359,8 @@ Diese Ideen habe ich verfolgt und an klaren Gegenbelegen scheitern lassen. Sie b
 
 ## Rückmeldung und Mitarbeit
 
+Rückmeldungen bitte als [Issue in diesem Repository](https://github.com/MaiderLE/koerperspannung-hypothesen/issues), am besten ein Issue pro Hypothese. Dafür ist ein kostenloses GitHub-Konto nötig.
+
 Jede Rückmeldung hilft, besonders Widerspruch mit Quelle. So lässt sie sich am besten zuordnen:
 
 - Nummer der Hypothese nennen (H1 bis H16) oder den Titel aus Teil C.
@@ -367,10 +369,7 @@ Jede Rückmeldung hilft, besonders Widerspruch mit Quelle. So lässt sie sich am
 
 Wer ähnliche Beschwerden hat: Dieses Dokument ersetzt keine ärztliche Abklärung.
 
-**Noch zu ergänzen:**
-
-- [ ] Link zum öffentlichen Repository
-- [ ] Kontaktweg für Rückmeldungen
+Repository: https://github.com/MaiderLE/koerperspannung-hypothesen
 
 ## Lizenz
 
